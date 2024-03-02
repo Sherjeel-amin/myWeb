@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  color: white;
+  gap: 15px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.style-link {
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.style-link:hover {
+  color: whitesmoke;
+  background-color: grey;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+body {
+  background-image: url("/assets/pexels-dương-nhân-1529881.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width:600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav h2 {
+    font-size: 20px;
+  }
+
+  .aboutme {
+    font-size: small;
+  }
+
+}
+
+@media screen and (max-width:370px) {
+  nav h2 {
+    font-size: 15px;
+  }
+}
+
+
+
+nav h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.aboutme {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.aboutme:hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.hi {
+  font-weight: bold;
+  color: aqua;
+}
+
+.bg-text p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.369);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  height: 65%;
+  padding: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+form {
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+ 
+  }
+
+  label {
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+
+  .col-left {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .col-right {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+
+.style-link-home {
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: grey;
+  font-size: large;
+  padding: 5px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.style-link-about {
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: grey;
+  font-size: large;
+  padding: 5px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.style-link-contact {
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: grey;
+  font-size: large;
+  padding: 5px;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.contact-me {
+  color: whitesmoke;
+}
+
+.contact-body {
+  background-image: url("/assets/pexels-photo-1563355.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.about-body {
+  background-image: url("/assets/pexels-photo-1367192.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.contact-body nav h1 {
+  font-size: large;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-body nav h1 {
+  font-size: xx-large;
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.logos {
+  color: whitesmoke;
+  background-color: grey;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.logos:hover {
+  font-size: xx-large;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-input {
+  background: transparent;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+.contact-input::placeholder {
+  color: whitesmoke;
+}
