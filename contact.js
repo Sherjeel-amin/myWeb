@@ -5,12 +5,12 @@ function validation()
         alert("Please enter your name")
         return false;
     }
-    if(document.getElementById("lname").value.trim()=="")
+    if(document.getElementById("contact").value.trim()=="")
     {
         alert("Please enter your contact")
         return false;
     }
-    if(document.getElementById("subject").value.trim()=="")
+    if(document.getElementById("message").value.trim()=="")
     {
         alert("Please enter your message")
         return false;
